@@ -375,6 +375,43 @@ footer{
 }
 .ft-bottom p{font-size:.73rem;color:rgba(255,255,255,.28)}
 .ft-bottom .hl{color:var(--o)}
+.ft-social{display:flex;gap:1rem;margin-top:1.4rem}
+.ft-social a{
+  width:36px;height:36px;border:1px solid rgba(255,255,255,.15);
+  display:flex;align-items:center;justify-content:center;
+  color:rgba(255,255,255,.4);transition:color .2s,border-color .2s,background .2s;
+}
+.ft-social a:hover{color:var(--wh);border-color:var(--o);background:var(--o)}
+.ft-social svg{width:17px;height:17px}
+
+/* WHATSAPP FLOTANTE */
+.wa-btn{
+  position:fixed;bottom:2rem;right:2rem;z-index:999;
+  width:60px;height:60px;background:#25D366;
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 24px rgba(37,211,102,.45);
+  transition:transform .25s,box-shadow .25s;
+  text-decoration:none;
+}
+.wa-btn:hover{transform:scale(1.1);box-shadow:0 8px 32px rgba(37,211,102,.6)}
+.wa-btn svg{width:32px;height:32px;fill:#fff}
+.wa-pulse{
+  position:absolute;inset:0;border-radius:50%;
+  background:rgba(37,211,102,.35);
+  animation:waPulse 2s ease-out infinite;
+}
+@keyframes waPulse{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.6);opacity:0}}
+
+/* VOLVER ARRIBA */
+.top-btn{
+  position:fixed;bottom:2rem;left:2rem;z-index:999;
+  width:44px;height:44px;background:var(--dark);border:1px solid rgba(255,255,255,.15);
+  cursor:pointer;display:none;align-items:center;justify-content:center;
+  color:var(--wh);transition:background .25s,transform .25s;
+}
+.top-btn.show{display:flex}
+.top-btn:hover{background:var(--o);transform:translateY(-3px)}
+.top-btn svg{width:18px;height:18px}
 
 /* ANIMACIONES */
 .fu{opacity:0;transform:translateY(38px);transition:opacity .7s ease,transform .7s ease}
@@ -421,17 +458,7 @@ footer{
 <!-- NAV -->
 <nav id="nav">
   <a href="#" class="nav-logo">
-    <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="44" height="44" fill="#E84514"/>
-      <polygon points="22,5 39,35 5,35" fill="none" stroke="white" stroke-width="2.5" stroke-linejoin="round"/>
-      <ellipse cx="22" cy="25" rx="7.5" ry="4.5" fill="white"/>
-      <rect x="15.5" y="28" width="13" height="3.5" rx="1.75" fill="white"/>
-      <line x1="22" y1="35" x2="22" y2="39" stroke="white" stroke-width="2.2"/>
-    </svg>
-    <div>
-      <span class="nav-name">COPPER SERVICES</span>
-      <span class="nav-tag">Servicios a la Minería</span>
-    </div>
+    <img src="logo.png" alt="Copper Services SPA" style="height:48px;width:auto;object-fit:contain">
   </a>
   <ul class="nav-links">
     <li><a href="#nosotros">Nosotros</a></li>
@@ -787,11 +814,11 @@ footer{
           Le respondemos en menos de 24 horas hábiles.
         </p>
         <div class="cta-row">
-          <a href="mailto:Jlazo@copper-services.com" class="btn-p">
-            Enviar Consulta
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="https://wa.me/56957503061?text=Hola%2C%20quisiera%20consultar%20sobre%20sus%20servicios" class="btn-p" target="_blank" rel="noopener">
+            WhatsApp
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.118 1.528 5.847L.057 23.743a.5.5 0 00.612.612l5.896-1.47A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.677-.513-5.2-1.407l-.373-.22-3.864.963.964-3.864-.22-.373A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
           </a>
-          <a href="tel:+56900000000" class="btn-s">Llamar Ahora</a>
+          <a href="tel:+56957503061" class="btn-s">+56 9 5750 3061</a>
         </div>
         <div class="cta-info">
           <div class="ci">
@@ -822,20 +849,21 @@ footer{
 <footer>
   <div class="ft-grid">
     <div>
-      <a href="#" class="nav-logo" style="text-decoration:none">
-        <svg viewBox="0 0 44 44" width="42" height="42" fill="none">
-          <rect width="44" height="44" fill="#E84514"/>
-          <polygon points="22,5 39,35 5,35" fill="none" stroke="white" stroke-width="2.5" stroke-linejoin="round"/>
-          <ellipse cx="22" cy="25" rx="7.5" ry="4.5" fill="white"/>
-          <rect x="15.5" y="28" width="13" height="3.5" rx="1.75" fill="white"/>
-          <line x1="22" y1="35" x2="22" y2="39" stroke="white" stroke-width="2.2"/>
-        </svg>
-        <div>
-          <span class="nav-name">COPPER SERVICES</span>
-          <span class="nav-tag">Servicios a la Minería</span>
-        </div>
+      <a href="#" style="text-decoration:none;display:block;margin-bottom:1rem">
+        <img src="logo.png" alt="Copper Services SPA" style="height:56px;width:auto;object-fit:contain">
       </a>
       <p class="ft-desc">Soluciones industriales integrales para la gran y mediana minería chilena. Comprometidos con la excelencia operacional y la seguridad en cada faena.</p>
+      <div class="ft-social">
+        <a href="https://www.instagram.com/copperservices.cl" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100086299947530" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+        </a>
+        <a href="https://wa.me/56957503061" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.118 1.528 5.847L.057 23.743a.5.5 0 00.612.612l5.896-1.47A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.677-.513-5.2-1.407l-.373-.22-3.864.963.964-3.864-.22-.373A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        </a>
+      </div>
     </div>
     <div class="ft-col">
       <h5>Servicios</h5>
@@ -871,6 +899,17 @@ footer{
     <p>Fabricado con precisión industrial en Chile</p>
   </div>
 </footer>
+
+<!-- WhatsApp flotante -->
+<a href="https://wa.me/56957503061?text=Hola%2C%20quisiera%20consultar%20sobre%20sus%20servicios" class="wa-btn" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <div class="wa-pulse"></div>
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.118 1.528 5.847L.057 23.743a.5.5 0 00.612.612l5.896-1.47A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.677-.513-5.2-1.407l-.373-.22-3.864.963.964-3.864-.22-.373A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+</a>
+
+<!-- Volver arriba -->
+<button class="top-btn" id="topBtn" aria-label="Volver arriba">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
 
 <script>
 const nav = document.getElementById('nav');
@@ -918,6 +957,12 @@ window.addEventListener('scroll', () => {
     heroBg.style.transform = `translateY(${window.scrollY * 0.28}px)`;
   }
 }, {passive: true});
+
+const topBtn = document.getElementById('topBtn');
+window.addEventListener('scroll', () => {
+  topBtn.classList.toggle('show', window.scrollY > 500);
+}, {passive: true});
+topBtn.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
 </script>
 </body>
 </html>
