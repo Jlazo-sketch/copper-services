@@ -466,6 +466,48 @@ footer{
 .top-btn:hover{background:var(--o);transform:translateY(-3px)}
 .top-btn svg{width:18px;height:18px}
 
+/* UBICACIÓN + FORMULARIO */
+#ubicacion{background:var(--bg2)}
+.ubic-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,5rem);align-items:start}
+.map-wrap{position:relative}
+.map-wrap iframe{width:100%;height:420px;border:none;display:block;filter:grayscale(15%)}
+.map-badge{
+  position:absolute;top:-1rem;left:-1rem;
+  background:var(--o);color:var(--wh);
+  padding:.7rem 1.2rem;
+  font-family:var(--fc);font-size:.7rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+  z-index:1;
+}
+.addr-cards{display:flex;flex-direction:column;gap:.8rem;margin-top:1.4rem}
+.addr-card{display:flex;align-items:flex-start;gap:.9rem;padding:1rem;background:var(--bg);border-left:3px solid var(--o)}
+.addr-card svg{width:20px;height:20px;color:var(--o);flex-shrink:0;margin-top:2px}
+.addr-card-lbl{font-family:var(--fc);font-size:.62rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--txt3);display:block;margin-bottom:2px}
+.addr-card-val{font-size:.9rem;color:var(--txt);font-weight:600}
+.form-box{background:var(--bg);border:1px solid var(--bdr);padding:2.4rem}
+.form-box h3{font-family:var(--fd);font-size:2rem;letter-spacing:.04em;text-transform:uppercase;color:var(--txt);margin-bottom:.4rem}
+.form-box p{font-size:.88rem;color:var(--txt3);margin-bottom:1.8rem}
+.form-group{margin-bottom:1.2rem}
+.form-group label{font-family:var(--fc);font-size:.7rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--txt3);display:block;margin-bottom:.5rem}
+.form-group input,.form-group select,.form-group textarea{
+  width:100%;padding:.8rem 1rem;
+  border:1px solid var(--bdr);background:var(--bg2);
+  font-family:var(--fb);font-size:.9rem;color:var(--txt);
+  outline:none;transition:border-color .25s;
+  appearance:none;
+}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--o)}
+.form-group textarea{resize:vertical;min-height:110px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.form-submit{
+  width:100%;padding:.95rem;background:var(--o);color:var(--wh);border:none;cursor:pointer;
+  font-family:var(--fc);font-size:.9rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  transition:background .25s,transform .25s;display:flex;align-items:center;justify-content:center;gap:.6rem;
+}
+.form-submit:hover{background:var(--o2);transform:translateY(-2px)}
+.form-nota{font-size:.75rem;color:var(--txt3);margin-top:.8rem;text-align:center}
+@media(max-width:900px){.ubic-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.form-row{grid-template-columns:1fr}}
+
 /* ANIMACIONES */
 .fu{opacity:0;transform:translateY(38px);transition:opacity .7s ease,transform .7s ease}
 .fi{opacity:0;transition:opacity .7s ease}
@@ -518,6 +560,7 @@ footer{
     <li><a href="#servicios">Servicios</a></li>
     <li><a href="#galeria">Flota</a></li>
     <li><a href="#proceso">Proceso</a></li>
+    <li><a href="#ubicacion">Ubicación</a></li>
     <li><a href="#contacto" class="nav-cta">Contactar</a></li>
   </ul>
   <button class="burger" id="burger" aria-label="Menú">
@@ -530,6 +573,7 @@ footer{
   <a href="#servicios" onclick="closeMob()">Servicios</a>
   <a href="#galeria"   onclick="closeMob()">Flota y Equipos</a>
   <a href="#proceso"   onclick="closeMob()">Proceso</a>
+  <a href="#ubicacion" onclick="closeMob()">Ubicación</a>
   <a href="#contacto"  onclick="closeMob()">Contactar</a>
 </div>
 
@@ -907,6 +951,95 @@ footer{
   </div>
 </section>
 
+<!-- UBICACIÓN + FORMULARIO -->
+<section id="ubicacion">
+  <div class="wrap">
+    <p class="sec-lbl fu">Encuéntranos</p>
+    <h2 class="sec-title fu d1">DÓNDE<br>ESTAMOS</h2>
+    <div class="ubic-grid" style="margin-top:3rem">
+
+      <!-- MAPA -->
+      <div class="map-wrap fu d1">
+        <div class="map-badge">Salamanca, Chile</div>
+        <iframe
+          src="https://maps.google.com/maps?q=Alejandro+Mart%C3%ADnez+221%2C+Salamanca%2C+Chile&output=embed&z=15"
+          allowfullscreen loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Ubicación Copper Services SPA">
+        </iframe>
+        <div class="addr-cards">
+          <div class="addr-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <span class="addr-card-lbl">Dirección</span>
+              <span class="addr-card-val">Alejandro Martínez N° 221, Salamanca<br>Región de Coquimbo, Chile</span>
+            </div>
+          </div>
+          <div class="addr-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <div>
+              <span class="addr-card-lbl">Teléfono / WhatsApp</span>
+              <span class="addr-card-val">+56 9 5750 3061</span>
+            </div>
+          </div>
+          <div class="addr-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8,21 12,17 16,21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            <div>
+              <span class="addr-card-lbl">Horario de atención</span>
+              <span class="addr-card-val">Lunes a Viernes, 08:00 – 18:00 hrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FORMULARIO -->
+      <div class="form-box fu d2">
+        <h3>Envíanos tu Consulta</h3>
+        <p>Responderemos en menos de 24 horas hábiles — también puedes escribirnos por WhatsApp.</p>
+        <form id="consultaForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Nombre</label>
+              <input type="text" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+              <label>Empresa</label>
+              <input type="text" name="empresa" placeholder="Nombre de empresa">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Teléfono o Email</label>
+            <input type="text" name="contacto" placeholder="+56 9 XXXX XXXX o correo@empresa.com" required>
+          </div>
+          <div class="form-group">
+            <label>Servicio que necesita</label>
+            <select name="servicio">
+              <option value="">Seleccione un servicio...</option>
+              <option>Suministro de Materiales</option>
+              <option>Mantención Industrial</option>
+              <option>Arriendo de Equipos</option>
+              <option>Consultoría Técnica</option>
+              <option>Transporte y Logística</option>
+              <option>Seguridad SSO</option>
+              <option>Otro / Consulta general</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Mensaje</label>
+            <textarea name="mensaje" placeholder="Cuéntanos qué necesitas, en qué región, plazos, etc."></textarea>
+          </div>
+          <button type="submit" class="form-submit">
+            Enviar por WhatsApp
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.118 1.528 5.847L.057 23.743a.5.5 0 00.612.612l5.896-1.47A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.677-.513-5.2-1.407l-.373-.22-3.864.963.964-3.864-.22-.373A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          </button>
+          <p class="form-nota">Al enviar, se abrirá WhatsApp con tu consulta lista para enviar.</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer>
   <div class="ft-grid">
@@ -1021,6 +1154,17 @@ window.addEventListener('scroll', () => {
     heroBg.style.transform = `translateY(${window.scrollY * 0.28}px)`;
   }
 }, {passive: true});
+
+document.getElementById('consultaForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const nombre = this.nombre.value || 'Sin nombre';
+  const empresa = this.empresa.value ? ` de ${this.empresa.value}` : '';
+  const contacto = this.contacto.value || '';
+  const servicio = this.servicio.value || 'Consulta general';
+  const mensaje = this.mensaje.value || '';
+  const texto = `Hola, soy ${nombre}${empresa}.\n\n*Servicio:* ${servicio}\n*Contacto:* ${contacto}\n\n${mensaje}`;
+  window.open(`https://wa.me/56957503061?text=${encodeURIComponent(texto)}`, '_blank');
+});
 
 const topBtn = document.getElementById('topBtn');
 window.addEventListener('scroll', () => {
