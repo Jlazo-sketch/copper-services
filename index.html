@@ -508,6 +508,77 @@ footer{
 @media(max-width:900px){.ubic-grid{grid-template-columns:1fr}}
 @media(max-width:600px){.form-row{grid-template-columns:1fr}}
 
+/* MARKETPLACE — Catálogo y Cotización */
+.nav-cotizar{
+  background:#FF6B00;color:#fff !important;
+  padding:8px 18px;border-radius:6px;
+  font-family:var(--fc);font-size:.82rem;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;
+  text-decoration:none;white-space:nowrap;
+  transition:background .25s !important;
+}
+.nav-cotizar::after{display:none !important}
+.nav-cotizar:hover{background:#E55A00 !important}
+.btn-catalog{
+  display:inline-flex;align-items:center;gap:.5rem;
+  background:#FF6B00;color:#fff;
+  padding:14px 28px;border-radius:8px;
+  font-family:var(--fc);font-size:1rem;font-weight:700;
+  letter-spacing:.08em;text-transform:uppercase;
+  text-decoration:none;
+  transition:background .25s,transform .25s;
+}
+.btn-catalog:hover{background:#E55A00;transform:translateY(-2px)}
+.srv-cta{padding:40px 0 20px;text-align:center}
+.srv-cta p{font-size:.9rem;color:var(--txt2);margin-bottom:1.1rem}
+.flota-banner{
+  background:rgba(26,37,53,.04);
+  border-left:4px solid #FF6B00;
+  border-radius:8px;
+  padding:16px 20px;
+  margin:0 clamp(1.5rem,5vw,4rem) 1.5rem;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:1rem;flex-wrap:wrap;
+}
+.flota-banner p{font-size:.9rem;color:var(--txt2);flex:1;min-width:200px;margin:0}
+.btn-flota{
+  background:#FF6B00;color:#fff;
+  padding:8px 18px;border-radius:6px;
+  font-family:var(--fc);font-size:.82rem;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;
+  text-decoration:none;white-space:nowrap;
+  transition:background .25s;
+}
+.btn-flota:hover{background:#E55A00}
+#fab-catalogo{
+  position:fixed;bottom:90px;right:24px;
+  width:56px;height:56px;border-radius:50%;
+  background:#FF6B00;
+  box-shadow:0 4px 16px rgba(255,107,0,.4);
+  cursor:pointer;z-index:9999;
+  display:flex;align-items:center;justify-content:center;
+  transition:transform .25s,box-shadow .25s;
+  border:none;text-decoration:none;
+}
+#fab-catalogo:hover{transform:scale(1.1);box-shadow:0 8px 28px rgba(255,107,0,.55)}
+#fab-catalogo:hover .fab-tooltip{opacity:1;transform:translateY(-50%) translateX(-8px)}
+.fab-icon{font-size:22px;color:#fff;line-height:1;display:block}
+.fab-tooltip{
+  position:absolute;right:calc(100% + 10px);top:50%;
+  transform:translateY(-50%) translateX(4px);
+  background:#1A2535;color:#fff;
+  padding:5px 10px;border-radius:4px;
+  font-family:var(--fc);font-size:.72rem;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;
+  white-space:nowrap;opacity:0;
+  transition:opacity .2s,transform .2s;
+  pointer-events:none;
+}
+.fab-tooltip::after{
+  content:'';position:absolute;left:100%;top:50%;transform:translateY(-50%);
+  border:5px solid transparent;border-left-color:#1A2535;
+}
+
 /* ANIMACIONES */
 .fu{opacity:0;transform:translateY(38px);transition:opacity .7s ease,transform .7s ease}
 .fi{opacity:0;transition:opacity .7s ease}
@@ -561,8 +632,10 @@ footer{
     <li><a href="#galeria">Flota</a></li>
     <li><a href="#proceso">Proceso</a></li>
     <li><a href="#ubicacion">Ubicación</a></li>
+    <li><a href="https://script.google.com/a/macros/copper-services.com/s/AKfycbwHFMYcmjfDY6cz3GjiqzyDzxsvp5l_JDVWo8eh09x_wxaxvkZ1P5oZif8mR4YLtvBC/exec" target="_blank" rel="noopener">Catálogo</a></li>
     <li><a href="#contacto" class="nav-cta">Contactar</a></li>
   </ul>
+  <a href="https://script.google.com/a/macros/copper-services.com/s/AKfycbwHFMYcmjfDY6cz3GjiqzyDzxsvp5l_JDVWo8eh09x_wxaxvkZ1P5oZif8mR4YLtvBC/exec" class="nav-cotizar" target="_blank" rel="noopener">Cotizar</a>
   <button class="burger" id="burger" aria-label="Menú">
     <span></span><span></span><span></span>
   </button>
@@ -574,6 +647,8 @@ footer{
   <a href="#galeria"   onclick="closeMob()">Flota y Equipos</a>
   <a href="#proceso"   onclick="closeMob()">Proceso</a>
   <a href="#ubicacion" onclick="closeMob()">Ubicación</a>
+  <a href="https://script.google.com/a/macros/copper-services.com/s/AKfycbwHFMYcmjfDY6cz3GjiqzyDzxsvp5l_JDVWo8eh09x_wxaxvkZ1P5oZif8mR4YLtvBC/exec" target="_blank" rel="noopener" onclick="closeMob()">Catálogo</a>
+  <a href="https://script.google.com/a/macros/copper-services.com/s/AKfycbwHFMYcmjfDY6cz3GjiqzyDzxsvp5l_JDVWo8eh09x_wxaxvkZ1P5oZif8mR4YLtvBC/exec" target="_blank" rel="noopener" onclick="closeMob()" style="background:#FF6B00;color:#fff;border-radius:6px;text-align:center">Cotizar</a>
   <a href="#contacto"  onclick="closeMob()">Contactar</a>
 </div>
 
@@ -597,6 +672,7 @@ footer{
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
       </a>
       <a href="#contacto" class="btn-s">Hablar con un Especialista</a>
+      <a href="https://script.google.com/a/macros/copper-services.com/s/AKfycbwHFMYcmjfDY6cz3GjiqzyDzxsvp5l_JDVWo8eh09x_wxaxvkZ1P5oZif8mR4YLtvBC/exec" class="btn-catalog" target="_blank" rel="noopener">📦 Ver Catálogo y Cotizar →</a>
     </div>
   </div>
   <div class="hero-aside">
@@ -793,6 +869,10 @@ footer{
       </div>
 
     </div>
+    <div class="srv-cta">
+      <p>Solicita tu cotización sin compromiso</p>
+      <a href="https://script.google.com/a/macros/copper-services.com/s/AKfycbwHFMYcmjfDY6cz3GjiqzyDzxsvp5l_JDVWo8eh09x_wxaxvkZ1P5oZif8mR4YLtvBC/exec" class="btn-catalog" target="_blank" rel="noopener">Ver catálogo completo y solicitar cotización →</a>
+    </div>
   </div>
 </section>
 
@@ -801,6 +881,10 @@ footer{
   <div class="galeria-head wrap">
     <p class="sec-lbl fu">Nuestra Flota y Operaciones</p>
     <h2 class="sec-title fu d1">EN TERRENO,<br>CADA DÍA</h2>
+  </div>
+  <div class="flota-banner">
+    <p>¿Necesitas uno de estos equipos? Consulta disponibilidad y cotiza en línea, sin compromiso.</p>
+    <a href="https://script.google.com/a/macros/copper-services.com/s/AKfycbwHFMYcmjfDY6cz3GjiqzyDzxsvp5l_JDVWo8eh09x_wxaxvkZ1P5oZif8mR4YLtvBC/exec" class="btn-flota" target="_blank" rel="noopener">Ver disponibilidad →</a>
   </div>
   <div class="gal-grid">
     <div class="gal-item fi">
@@ -1145,6 +1229,12 @@ footer{
 <a href="https://wa.me/56957503061?text=Hola%2C%20quisiera%20consultar%20sobre%20sus%20servicios" class="wa-btn" target="_blank" rel="noopener" aria-label="WhatsApp">
   <div class="wa-pulse"></div>
   <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.118 1.528 5.847L.057 23.743a.5.5 0 00.612.612l5.896-1.47A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.677-.513-5.2-1.407l-.373-.22-3.864.963.964-3.864-.22-.373A9.952 9.952 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+</a>
+
+<!-- FAB Catálogo -->
+<a id="fab-catalogo" href="https://script.google.com/a/macros/copper-services.com/s/AKfycbwHFMYcmjfDY6cz3GjiqzyDzxsvp5l_JDVWo8eh09x_wxaxvkZ1P5oZif8mR4YLtvBC/exec" target="_blank" rel="noopener" aria-label="Ver catálogo">
+  <span class="fab-icon">📦</span>
+  <span class="fab-tooltip">Ver catálogo</span>
 </a>
 
 <!-- Volver arriba -->
