@@ -1,9 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Página principal -->
   <url>
     <loc>https://jlazo-sketch.github.io/copper-services/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2025-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es-CL"
+      href="https://jlazo-sketch.github.io/copper-services/"/>
   </url>
+
+  <!-- Sección Nosotros -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#nosotros</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Sección Servicios — máxima prioridad comercial -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#servicios</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Servicio: Arriendo de Equipos -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#arriendo-equipos</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Servicio: Arriendo de Generadores -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#arriendo-generadores</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Servicio: Mantención Industrial -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#mantencion-industrial</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Servicio: Suministro de Materiales -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#suministro-materiales</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Servicio: Transporte y Logística -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#transporte-logistica</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Servicio: Consultoría Técnica -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#consultoria-tecnica</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Servicio: Seguridad SSO -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#seguridad-sso</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Sección Flota y Equipos -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#galeria</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sección Proceso -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#proceso</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Sección Ubicación -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#ubicacion</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Sección Contacto -->
+  <url>
+    <loc>https://jlazo-sketch.github.io/copper-services/#contacto</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
