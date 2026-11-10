@@ -85,9 +85,10 @@ SERVICIOS = [
         "titulo": "Arriendo de generadores",
         "seo": "Arriendo de generadores en Salamanca y Región de Coquimbo",
         "imagen": "arriendo-transporte-generadores",
-        "resumen": "Arriendo de generadores diésel para faenas, obras, campamentos y respaldo de energía. Coordinamos el transporte e instalación del equipo y su mantención durante el contrato.",
+        "resumen": "Arriendo de generadores diésel sin operador para faenas, obras, campamentos y respaldo de energía. Coordinamos el transporte e instalación del equipo y su mantención durante el contrato.",
         "incluye": [
             "Generadores según la potencia que requiere su operación",
+            "Arriendo sin operador: el equipo queda instalado y operando para su personal",
             "Transporte del equipo hasta la faena u obra",
             "Mantención del generador durante el periodo de arriendo",
             "Arriendo mensual con orden de compra y estado de pago",
@@ -95,6 +96,7 @@ SERVICIOS = [
         ],
         "faqs": [
             ("¿Qué necesito para cotizar un generador?", "La potencia o los equipos que va a alimentar, el lugar de instalación y el plazo del arriendo. Si no conoce la potencia, le ayudamos a estimarla."),
+            ("¿El arriendo incluye operador?", "No. Los generadores se arriendan sin operador: los dejamos instalados y funcionando, y nos encargamos de su mantención durante el contrato."),
             ("¿Incluye el transporte?", "Coordinamos el traslado del equipo hasta su faena u obra; el valor depende de la distancia y se detalla en la cotización."),
         ],
     },
@@ -123,13 +125,14 @@ SERVICIOS = [
         "titulo": "Arriendo de equipos, maquinaria y vehículos",
         "seo": "Arriendo de equipos, maquinaria y vehículos para faena en Salamanca",
         "imagen": "retroexcavadora-john-deere",
-        "resumen": "Arriendo de equipos industriales, maquinaria y vehículos para faenas y proyectos: camionetas, camiones, retroexcavadoras, camiones grúa y generadores, con contrato mensual y facturación contra orden de compra.",
+        "resumen": "Arriendo sin operador de equipos industriales, maquinaria y vehículos para faenas y proyectos: camionetas, camiones, retroexcavadoras, camiones grúa y generadores, con contrato mensual y facturación contra orden de compra.",
         "incluye": [
             "Camionetas y vehículos de apoyo para faena",
             "Retroexcavadoras y maquinaria para movimiento de tierra",
             "Camiones grúa, camiones pluma y camiones planos",
             "Generadores y equipos industriales",
             "Contrato mensual con orden de compra y estado de pago",
+            "Arriendo sin operador",
         ],
         "faqs": [
             ("¿Cómo se factura el arriendo?", "El arriendo se factura de forma mensual, contra la orden de compra de su empresa y, cuando corresponde, el estado de pago aprobado."),
