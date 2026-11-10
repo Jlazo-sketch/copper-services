@@ -6,3 +6,4 @@ SKILLS/
 *.md
 PAGINA WEB/
 .claude/
+__pycache__/

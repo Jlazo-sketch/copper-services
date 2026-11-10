@@ -1,0 +1,3130 @@
+[
+ {
+  "id": 1,
+  "sku": "PRO0001",
+  "descripcion": "INTERRUPTOR AUTOMATICO 6KA, C, 1X10A",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/1/foto?v=72ce4c86",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 2,
+  "sku": "PRO0002",
+  "descripcion": "INTERRUPTOR AUTOMATICO 6KA, C, 1X16A",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/2/foto?v=0f547dfc",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 3,
+  "sku": "PRO0003",
+  "descripcion": "INTERRUPTOR AUTOMATICO 6KA, C, 1X20A",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/3/foto?v=1a5994b9",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 4,
+  "sku": "PRO0004",
+  "descripcion": "INTERRUPTOR AUTOMATICO 6KA, C, 1X25A",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/4/foto?v=32ba1135",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 5,
+  "sku": "PRO0005",
+  "descripcion": "INTERRUPTOR AUTOMATICO 6KA, C, 2X16A OMNI POLAR",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/5/foto?v=15866f4b",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 6,
+  "sku": "PRO0006",
+  "descripcion": "INTERRUPTOR AUTOMATICO 6KA, C, 2X25A",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/6/foto?v=b201480d",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 7,
+  "sku": "PRO0007",
+  "descripcion": "INTERRUPTOR AUTOMATICO 6KA, C, 3X16A",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/7/foto?v=6643700b",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 8,
+  "sku": "PRO0008",
+  "descripcion": "INTERRUPTOR AUTOMATICO 6KA, C, 3X32A",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/8/foto?v=4a9cfdd9",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 9,
+  "sku": "PRO0009",
+  "descripcion": "INTERRUPTOR DIFERENCIAL 2X25A 30mA",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/9/foto?v=4c84cede",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 10,
+  "sku": "PRO0010",
+  "descripcion": "INTERRUPTOR DIFERENCIAL 2X40A 30mA",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/10/foto?v=db7a2711",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 11,
+  "sku": "PRO0011",
+  "descripcion": "CONTACTOR 9A, 1NO, IP20",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/11/foto?v=aaac767a",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 12,
+  "sku": "PRO0012",
+  "descripcion": "CONTACTOR 18A, 1NO, IP20",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/12/foto?v=47d6d8e9",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 13,
+  "sku": "PRO0013",
+  "descripcion": "CONTACTOR 32A, 1NO, IP20",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/13/foto?v=5b3b734c",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 14,
+  "sku": "PRO0014",
+  "descripcion": "GUARDAMOTOR 4-6,3A, 660V",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/14/foto?v=47266482",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 15,
+  "sku": "PRO0015",
+  "descripcion": "GUARDAMOTOR 6-10A, 660V",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/15/foto?v=99184c59",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 16,
+  "sku": "PRO0016",
+  "descripcion": "GUARDAMOTOR 9-14A, 660V",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/16/foto?v=a4c9b12d",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 17,
+  "sku": "PRO0017",
+  "descripcion": "RELÉ TÉRMICO PARA CONTACTOR 7-10A, IP20",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/17/foto?v=fd69e9f3",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 18,
+  "sku": "PRO0018",
+  "descripcion": "RELE DE MEDIDA Y CONTROL MONITOR DE VOLTAJE 127-265VAC",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/18/foto?v=7a6f0f89",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 19,
+  "sku": "PRO0019",
+  "descripcion": "RELE TEMPORIZADO C/ RETARDO A LA CONEXIÓN AC/DC 12-240V",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/19/foto?v=158d0fbe",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 50,
+  "sku": "PRO0020",
+  "descripcion": "EXTINTOR DE FUEGO A RIEL DIN CNC",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/50/foto?v=d58b53ef",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 126,
+  "sku": "PRO0021",
+  "descripcion": "INTERRUPTOR TERMOMAGNETICO AC 1P C 16A 6kA CNC",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/126/foto?v=4acbd7a1",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 127,
+  "sku": "PRO0022",
+  "descripcion": "INTERRUPTOR TERMOMAGNETICO AC 1P C 25A 6kA CNC",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/127/foto?v=782af73f",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 20,
+  "sku": "TAB0001",
+  "descripcion": "LUZ PILOTO ROJA LED 230V, 22MM",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/20/foto?v=46a156aa",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 21,
+  "sku": "TAB0002",
+  "descripcion": "LUZ PILOTO VERDE LED 230V, 22MM",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/21/foto?v=dd72f4e5",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 22,
+  "sku": "TAB0003",
+  "descripcion": "PULSADOR HONGO 22MM., ROJO, 1NC",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/22/foto?v=0b79a22f",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 23,
+  "sku": "TAB0004",
+  "descripcion": "PULSADOR 22MM., VERDE, 1NO",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/23/foto?v=1df109cc",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 24,
+  "sku": "TAB0005",
+  "descripcion": "PULSADOR 22MM., ROJO, 1NC",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/24/foto?v=156aa3c9",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 25,
+  "sku": "TAB0006",
+  "descripcion": "SELECTOR 2 POSICIONES TIPO CONMUTADOR 1NO+1NC 10A",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/25/foto?v=f1596404",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 26,
+  "sku": "TAB0007",
+  "descripcion": "CANALETA RANURADA DE 25X40MMX2M (100MTS)",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/26/foto?v=81bd030f",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 27,
+  "sku": "TAB0008",
+  "descripcion": "BARRA AISLADORA DE CONECCION VERDE 8 POLOS, P/RIEL DIN 35MM",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/27/foto?v=3d90d22e",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 28,
+  "sku": "TAB0009",
+  "descripcion": "BARRA AISLADORA DE CONECCION AZUL 8 POLOS, P/RIEL DIN 35MM",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/28/foto?v=b1b17757",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 29,
+  "sku": "TAB0010",
+  "descripcion": "BORNE DE CONEXION DE 4MM2 (PLACA TERMINAL)",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/29/foto?v=13ecf06a",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 58,
+  "sku": "TAB0011",
+  "descripcion": "RIEL DIN DE 1MT",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/58/foto?v=474d499a",
+  "marca": "STANFORD",
+  "detalle": "El riel DIN de acero TH35-15 es un riel metálico de tipo estándar ampliamente utilizado para montar disyuntores y equipos de control industrial dentro de bastidores de equipos. Por lo general, estos productos se fabrican con láminas de acero al carbono laminadas en frío con un acabado de superficie brillante cromado o galvanizado.\n\nMaterial: acero\n\nEspesor: 1,5 mm es estándar en stock, 1,2 mm o 0,9 mm se pueden personalizar en base a grandes cantidades\n\nAcabado: revestimiento de zinc (galvanizado)\n\nAncho: 35 mm\n\nAltura: 15 mm\n\nLongitud: 1 metro",
+  "ficha_url": null
+ },
+ {
+  "id": 59,
+  "sku": "TAB0012",
+  "descripcion": "Borne de conexion tornillo 6mm Degson",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": null,
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 75,
+  "sku": "TAB0013",
+  "descripcion": "BARRA TOMA A TIERRA 1/2*1.5 MT",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": null,
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 76,
+  "sku": "TAB0014",
+  "descripcion": "CONECTOR BARRA TOMA TIERRA",
+  "familia": {
+   "id": 3,
+   "prefijo": "TAB",
+   "nombre": "Accesorios tablero",
+   "orden": 3,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/76/foto?v=b35bb6fc",
+  "marca": null,
+  "detalle": "Accesorio eléctrico que conecta un conductor de tierra a un electrodo o barra de tierra. Fabricado con bronce de alta calidad, ofrece una buena resistencia mecánica y excelente aislamiento eléctrico. Fácil de instalar, proporciona una conexión segura y duradera para diversas aplicaciones en sistemas eléctricos. Es una opción confiable para una conexión efectiva de conductores de tierra.\n\nCaracterísticas:\n\nMaterial: Fabricado con aleación de bronce resistente a la corrosión de alta resistencia\nMedidas: Para conectar barras entre 1/2\" a 5/8\"\nPeso: 0,04 kilogramos",
+  "ficha_url": null
+ },
+ {
+  "id": 30,
+  "sku": "EIN0001",
+  "descripcion": "ENCHUFE INDUSTRIAL MACHO VOLANTE IP44,16A,220V,2P+T",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/30/foto?v=86d6051f",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 31,
+  "sku": "EIN0002",
+  "descripcion": "Enchufe ind. hembra vol. 2P T 16A IP44 GLOBAL",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/31/foto?v=93132b98",
+  "marca": "STANFORD",
+  "detalle": "Enchufe industrial compatible con la norma IEC-60309 (pines que se identifican por colores). Enchufe de antena para engarzar a un cable eléctrico.\nToma de antena tipo CETAC hembra (2P + T ), 16A, 220V.\nProtección del medio ambiente IP44.\nFabricado en plástico PVC de primera calidad.\nEnchufe de antena preparado para ser montado en un cable eléctrico.",
+  "ficha_url": null
+ },
+ {
+  "id": 32,
+  "sku": "EIN0003",
+  "descripcion": "ENCHUFE INDUSTRIAL MACHO VOLANTE IP44,16A,380V,3P+T",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/32/foto?v=09c2a801",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 33,
+  "sku": "EIN0004",
+  "descripcion": "ENCHUFE INDUSTRIAL HEMBRA VOLANTE IP44, 16A, 380V, 3P+T",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/33/foto?v=95302b7f",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 34,
+  "sku": "EIN0005",
+  "descripcion": "ENCHUFE INDUSTRIAL MACHO VOLANTE IP44,16A,380V,3P+N+T",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/34/foto?v=49d63aa9",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 35,
+  "sku": "EIN0006",
+  "descripcion": "ENCHUFE INDUSTRIAL HEMBRA VOLANTE IP44, 16A, 380V, 3P+N+T",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/35/foto?v=ec79bdd6",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 36,
+  "sku": "EIN0007",
+  "descripcion": "ENCHUFE INDUSTRIAL HEMBRA SOBREPUESTA IP44, 16A, 380V, 3P+T",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/36/foto?v=b44ecd42",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 37,
+  "sku": "EIN0008",
+  "descripcion": "ENCHUFE INDUSTRIAL MACHO VOLANTE IP44,32A,380V,3P+N+T",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/37/foto?v=a113f8c1",
+  "marca": "STANFORD",
+  "detalle": "Estos enchufes industriales se utilizan para conexiones de dispositivos en una variedad de aplicaciones donde se requiere conexión y desconexión.\n\nPolos\t3P +N+T\nPosición del Contacto a Tierra\t6 Hrs\nA\t16\nVoltaje (V)\t380V\nColor\tRojo\nIP\t44",
+  "ficha_url": null
+ },
+ {
+  "id": 38,
+  "sku": "EIN0009",
+  "descripcion": "ENCHUFE INDUSTRIAL HEMBRA SOBREPUESTA IP44, 32A, 380V, 3P+N+T",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/38/foto?v=83524e38",
+  "marca": "STANFORD",
+  "detalle": "Enchufe industrial compatible con la norma IEC-60309 (pines que se identifican por colores). Enchufe de antena para engarzar a un cable eléctrico.\nEnchufe industrial compatible con la norma IEC-60309, preparado para voltaje de 380V.\nToma de antena tipo CETAC hembra (3P + T + N), 32A, 380V.\nProtección del medio ambiente IP44.\nFabricado en plástico PVC de primera calidad.\nEnchufe de antena preparado para ser montado en un cable eléctrico.",
+  "ficha_url": null
+ },
+ {
+  "id": 93,
+  "sku": "EIN0010",
+  "descripcion": "HYDROBOX CON ENCHUFE DOBLE 10/16A",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/93/foto?v=78b1a9c2",
+  "marca": "STANFORD",
+  "detalle": "La linea de hidrobox HB-90 esta diseñada para poder ser utilizada en ambientes húmedos y de alta polución.\nPor el grado de protección que tienen sus cajas, le permite, proteger sus interruptores y enchufes y mantenerlos en optimas condiciones.",
+  "ficha_url": null
+ },
+ {
+  "id": 94,
+  "sku": "EIN0011",
+  "descripcion": "HYDROBOX CON ENCHUFE SIMPLE 10/16A Y INTERRUPTOR 9/12",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/94/foto?v=6e77a199",
+  "marca": "STANFORD",
+  "detalle": "La linea de hidrobox HB-90 esta diseñada para poder ser utilizada en ambientes húmedos y de alta polución.\nPor el grado de protección que tienen sus cajas, le permite, proteger sus interruptores y enchufes y mantenerlos en optimas condiciones.",
+  "ficha_url": null
+ },
+ {
+  "id": 95,
+  "sku": "EIN0012",
+  "descripcion": "ENCHUFE MACHO 10A 250V BLANCO",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/95/foto?v=b7a9456a",
+  "marca": "STANFORD",
+  "detalle": "Artefactos muy resistentes elaborado de polímero de gran calidad para soportar golpes y mantener el circuito protegido.\nTiene las mismas características que el enchufe volante solo que cuenta con mas entradas para facilitar la instalación de los cables.\n\nCARACTERÍSTICAS TÉCNICAS\n\nCuerpo de plástico y termo polímeros resistente a golpes y altas temperaturas.\nProtección aislante.\nEs ideal para uso cotidiano.\nCertificado SEC E-013-01 71245.",
+  "ficha_url": null
+ },
+ {
+  "id": 96,
+  "sku": "EIN0013",
+  "descripcion": "ENCHUFE HEMBRA 10A 250V BLANCO",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/96/foto?v=c3f46fea",
+  "marca": "STANFORD",
+  "detalle": "Es una pieza fundamental para conectar artefactos a la toma de corriente o enchufes. En su interior la componen unas clavijas metálicas para facilitar la instalación. Se instala en el extremo del cable de alimentación.\n\nCARACTERÍSTICAS TÉCNICAS\n\nCuerpo de plástico y termo polímeros resistente a golpes y altas temperaturas.\nProtección aislante.\nEs ideal para uso cotidiano.\nCertificado SEC E-013-01 71245.",
+  "ficha_url": null
+ },
+ {
+  "id": 97,
+  "sku": "EIN0014",
+  "descripcion": "ENCHUFE VOLANTE PESADO MACHO 16A 250V BLANCO",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/97/foto?v=128f222d",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 98,
+  "sku": "EIN0015",
+  "descripcion": "ENCHUFE VOLANTE PESADO HEMBRA 16A 250V BLANCO",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/98/foto?v=b2b9b022",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 102,
+  "sku": "EIN0016",
+  "descripcion": "ENCHUFE VOLANTE MACHO 10A 250V BLANNCO",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": null,
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 104,
+  "sku": "EIN0017",
+  "descripcion": "CONECTOR CÓNICO 14AWG GRIS",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/104/foto?v=a2e8d9a9",
+  "marca": "STANFORD",
+  "detalle": "Conectores finales aislantes en las uniones de conductores eléctricos.\nFabriacdo en plástico de PVC de alta calidad con un excelente aislamiento y seguridad.",
+  "ficha_url": null
+ },
+ {
+  "id": 105,
+  "sku": "EIN0018",
+  "descripcion": "CONECTOR CÓNICO 12AWG AZUL",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/105/foto?v=cf32ea24",
+  "marca": "STANFORD",
+  "detalle": "Conectores finales aislantes en las uniones de conductores eléctricos.\nFabriacdo en plástico de PVC de alta calidad con un excelente aislamiento y seguridad.",
+  "ficha_url": null
+ },
+ {
+  "id": 106,
+  "sku": "EIN0019",
+  "descripcion": "CONECTOR RAPIDO 5 POLOS",
+  "familia": {
+   "id": 4,
+   "prefijo": "EIN",
+   "nombre": "Enchufes industriales",
+   "orden": 4,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/106/foto?v=e04b3a25",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 111,
+  "sku": "CIN0001",
+  "descripcion": "CORDON ELECTRICO NEGRO 2X1.5MM ROLLO",
+  "familia": {
+   "id": 5,
+   "prefijo": "CIN",
+   "nombre": "Cables industriales",
+   "orden": 5,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/111/foto?v=14fe4e28",
+  "marca": "STANFORD",
+  "detalle": "Conductores flexible, formado por alambres de cobre blando electrolítico, con aislación de termoplástico (PVC), polarizado por colores.",
+  "ficha_url": null
+ },
+ {
+  "id": 112,
+  "sku": "CIN0002",
+  "descripcion": "CORDON ELECTRICO NEGRO 3X1.5MM ROLLO",
+  "familia": {
+   "id": 5,
+   "prefijo": "CIN",
+   "nombre": "Cables industriales",
+   "orden": 5,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/112/foto?v=ea7f63e1",
+  "marca": "STANFORD",
+  "detalle": "Conductores flexible, formado por alambres de cobre blando electrolítico, con aislación de termoplástico (PVC), polarizado por colores.",
+  "ficha_url": null
+ },
+ {
+  "id": 113,
+  "sku": "CIN0003",
+  "descripcion": "CORDON RV-K 3X1.5MM2 (ROLLO 100MTS)",
+  "familia": {
+   "id": 5,
+   "prefijo": "CIN",
+   "nombre": "Cables industriales",
+   "orden": 5,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/113/foto?v=0d9eadf7",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 114,
+  "sku": "CIN0004",
+  "descripcion": "CORDON RV-K 3X2.5MM2 (ROLLO 100M)",
+  "familia": {
+   "id": 5,
+   "prefijo": "CIN",
+   "nombre": "Cables industriales",
+   "orden": 5,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/114/foto?v=c0d902c6",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 115,
+  "sku": "CIN0005",
+  "descripcion": "CORDON RV-K 4X2.5MM2 (ROLLO 100M)",
+  "familia": {
+   "id": 5,
+   "prefijo": "CIN",
+   "nombre": "Cables industriales",
+   "orden": 5,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/115/foto?v=10ccdd7d",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 119,
+  "sku": "CIN0006",
+  "descripcion": "CABLE LIBRE DE HALOGENO H07Z1-K 2.5MM BLANCO R100",
+  "familia": {
+   "id": 5,
+   "prefijo": "CIN",
+   "nombre": "Cables industriales",
+   "orden": 5,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/119/foto?v=c433f1ca",
+  "marca": "STANFORD",
+  "detalle": "El cable sin halógenos RZ1-K es un cable de alta seguridad. En caso de incendio no emitir gases tóxicos o corrosivos, protegiendo así la salud pública y previniendo posibles daños a los equipos electrónicos. Por este motivo, su uso es obligatorio en lugares públicos como hospitales, colegios, comercios en general, etc y es apto en todo tipo de conexiones industriales de baja tensión.",
+  "ficha_url": null
+ },
+ {
+  "id": 134,
+  "sku": "CIN0007",
+  "descripcion": "CABLE CONCENTRICO 2X6MM2",
+  "familia": {
+   "id": 5,
+   "prefijo": "CIN",
+   "nombre": "Cables industriales",
+   "orden": 5,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "m",
+  "minimo_venta": "1.00",
+  "foto": "/productos/134/foto?v=1e66ab3a",
+  "marca": "STANFORD",
+  "detalle": "Alambre de cobre electrolítico de temple blando, aislado con pvc 70°C; sobre la aislación una malla concéntrica colocado helicoidalmente y sobre éste una cinta poliéster y chaqueta de polietileno negro resistente a la interperie.\n\nAplicaciones:\n\nPara empalmes de casa en baja tensión. Especialmente diseñado para evitar robo\nde energía.\n\nCaracterísticas de operación:\n– Tensión de Servicio: 600V.\n– Temperatura Máxima de servicio: 70°.\n– Temperatura de Emergencia: 130°C.\n– Temperatura de cortocircuito: 150°C.\n– Flexibilidad: Cable de clase 1.",
+  "ficha_url": null
+ },
+ {
+  "id": 135,
+  "sku": "CIN0008",
+  "descripcion": "CABLE EVA 4.0 MM2 VERDE",
+  "familia": {
+   "id": 5,
+   "prefijo": "CIN",
+   "nombre": "Cables industriales",
+   "orden": 5,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "m",
+  "minimo_venta": "1.00",
+  "foto": "/productos/135/foto?v=0ff8a015",
+  "marca": "STANFORD",
+  "detalle": "Los cables H07Z1-K son unipolar flexible de cobre con aislamiento de compuesto libre de halógeno. indicados para instalaciones fijas en locales de pública concurrencia y donde en caso de incendio se requiera una baja emisión de humos y gases corrosivos, como hospitales, escuelas, centros comerciales, aeropuertos, y en todas las instalaciones en las que se quiera aumentar la protección frente a un incendio. Son también cable apropiados para la instalación de derivaciones individuales.",
+  "ficha_url": null
+ },
+ {
+  "id": 136,
+  "sku": "CIN0009",
+  "descripcion": "CABLE PREENSAMBLADO 1x25 + 1x25",
+  "familia": {
+   "id": 5,
+   "prefijo": "CIN",
+   "nombre": "Cables industriales",
+   "orden": 5,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "m",
+  "minimo_venta": "1.00",
+  "foto": "/productos/136/foto?v=8ab8f1dd",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 39,
+  "sku": "CAN0001",
+  "descripcion": "TUBERIA RIGIDA EMT 20mm*3000m",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/39/foto?v=f7768097",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 40,
+  "sku": "CAN0002",
+  "descripcion": "TUBERIA RIGIDA EMT 25mm*3000m",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/40/foto?v=b78cbd0e",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 41,
+  "sku": "CAN0003",
+  "descripcion": "Copla zincada EMT 20mm IEC",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/41/foto?v=1995ceb2",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 42,
+  "sku": "CAN0004",
+  "descripcion": "Terminal zincado EMT 20mm IEC",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/42/foto?v=8c36bcbf",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 43,
+  "sku": "CAN0005",
+  "descripcion": "Copla zincada EMT 25mm IEC",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/43/foto?v=5f0d8035",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 44,
+  "sku": "CAN0006",
+  "descripcion": "Terminal zincado EMT 25mm IEC",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/44/foto?v=67b3fb78",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 45,
+  "sku": "CAN0007",
+  "descripcion": "ABRAZADERA OMEGA 20MM",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/45/foto?v=2a47a340",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 46,
+  "sku": "CAN0008",
+  "descripcion": "ABRAZADERA OMEGA 25MM",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/46/foto?v=48740b43",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 61,
+  "sku": "CAN0009",
+  "descripcion": "SALIDA DE CAJA 16MM PVC",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/61/foto?v=0405ff96",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 62,
+  "sku": "CAN0010",
+  "descripcion": "SALIDA DE CAJA 25MM PVC",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/62/foto?v=e3b3acb2",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 63,
+  "sku": "CAN0011",
+  "descripcion": "SALIDA DE CAJA 32MM PVC",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/63/foto?v=23af88e6",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 64,
+  "sku": "CAN0012",
+  "descripcion": "COPLA 20MM PVC NARANJA",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/64/foto?v=af2be78c",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 65,
+  "sku": "CAN0013",
+  "descripcion": "COPLA 25MM PVC NARANJA",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/65/foto?v=3c74020a",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 66,
+  "sku": "CAN0014",
+  "descripcion": "CURVA 16MM PVC NARANJA",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/66/foto?v=061eea06",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 67,
+  "sku": "CAN0015",
+  "descripcion": "CURVA 20MM PVC NARANJA",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/67/foto?v=fa91d998",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 68,
+  "sku": "CAN0016",
+  "descripcion": "CURVA PVC 25MM NARANJA",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/68/foto?v=be8065ae",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 69,
+  "sku": "CAN0017",
+  "descripcion": "CURVA PVC 32MM NARANJA",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/69/foto?v=70413f8a",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 70,
+  "sku": "CAN0018",
+  "descripcion": "TUBO CONDUIT PVC NARANJA 20MM*3000MM",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/70/foto?v=a1bf1c20",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 71,
+  "sku": "CAN0019",
+  "descripcion": "TUBO CONDUIT PVC NARANJA 25MM*3000MM",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/71/foto?v=2f7b571a",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 72,
+  "sku": "CAN0020",
+  "descripcion": "TUBO CONDUIT PVC NARANJA 32MM*3000MM",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/72/foto?v=48c4de3b",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 103,
+  "sku": "CAN0021",
+  "descripcion": "CABEZA DE SERVICIO METALICA CON ABRAZADERA 20MM",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/103/foto?v=ac5a43d8",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 123,
+  "sku": "CAN0022",
+  "descripcion": "CONECTOR DENTADO P/PREENSAMBLADO THEP-35(1,5-10/16-95MM2)",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/123/foto?v=8edf6929",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 124,
+  "sku": "CAN0023",
+  "descripcion": "GRAMPA CONCENTRICO STD (16-70MM) 1,5-2KN",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/124/foto?v=23fe1651",
+  "marca": "STANFORD",
+  "detalle": "Los conectores dentados estancos son ideales para la realización de derivaciones en conductores preensamblados o concéntricos ya sean de cobre o aluminio brindado. Se fabrican en diferentes modelos que permiten abarcar todos los rangos habituales de líneas aisladas.",
+  "ficha_url": null
+ },
+ {
+  "id": 125,
+  "sku": "CAN0024",
+  "descripcion": "CABEZA DE SERVICIO METALICA CON ABRAZADERA 32MM",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/125/foto?v=93d9ef7b",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 130,
+  "sku": "CAN0025",
+  "descripcion": "TUBO CONDUIT PVC NARANJA 16MM*3000MM 2",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/130/foto?v=bbdb918b",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 132,
+  "sku": "CAN0026",
+  "descripcion": "CAJA CORRIENTE NEGRA TABIQUE 12 ENTRADAS",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/132/foto?v=c6edbdc6",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 133,
+  "sku": "CAN0027",
+  "descripcion": "ABRAZADERA 16MM NARANJA",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/133/foto?v=79bdf11f",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 48,
+  "sku": "CTE0001",
+  "descripcion": "AMARRA PLÁSTICA 100*2.5 NEGRA",
+  "familia": {
+   "id": 7,
+   "prefijo": "CTE",
+   "nombre": "Consumibles técnicos",
+   "orden": 7,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/48/foto?v=81b9ebaa",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 49,
+  "sku": "CTE0002",
+  "descripcion": "CINTA GOMA AUTOFUNDENTE",
+  "familia": {
+   "id": 7,
+   "prefijo": "CTE",
+   "nombre": "Consumibles técnicos",
+   "orden": 7,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/49/foto?v=6c36b59c",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 52,
+  "sku": "CTE0003",
+  "descripcion": "Kit Manga Termocontraible (130 pzas) LH Negro 01 Globaltronics",
+  "familia": {
+   "id": 7,
+   "prefijo": "CTE",
+   "nombre": "Consumibles técnicos",
+   "orden": 7,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/52/foto?v=cc30bdab",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 53,
+  "sku": "CTE0004",
+  "descripcion": "TERMINAL DE COMPRESION 4AWG",
+  "familia": {
+   "id": 7,
+   "prefijo": "CTE",
+   "nombre": "Consumibles técnicos",
+   "orden": 7,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/53/foto?v=809e20ab",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 54,
+  "sku": "CTE0005",
+  "descripcion": "TERMINAL DE COMPRESION 2AWG",
+  "familia": {
+   "id": 7,
+   "prefijo": "CTE",
+   "nombre": "Consumibles técnicos",
+   "orden": 7,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/54/foto?v=1520d0b7",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 55,
+  "sku": "CTE0006",
+  "descripcion": "PRENSA ESTOPA PG-09 (4MM - 8MM)",
+  "familia": {
+   "id": 7,
+   "prefijo": "CTE",
+   "nombre": "Consumibles técnicos",
+   "orden": 7,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/55/foto?v=65dd1a41",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 56,
+  "sku": "CTE0007",
+  "descripcion": "PRENSA ESTOPA PG-13 (6MM - 12MM)",
+  "familia": {
+   "id": 7,
+   "prefijo": "CTE",
+   "nombre": "Consumibles técnicos",
+   "orden": 7,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/56/foto?v=e0aa2f76",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 60,
+  "sku": "CTE0008",
+  "descripcion": "FERRUL E2508 14AWG GRIS (BOLSA DE 100UN)",
+  "familia": {
+   "id": 7,
+   "prefijo": "CTE",
+   "nombre": "Consumibles técnicos",
+   "orden": 7,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/60/foto?v=51db7c5e",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 100,
+  "sku": "CTE0009",
+  "descripcion": "CINTA AISLANTE NEGRA 20Y UNIDAD",
+  "familia": {
+   "id": 7,
+   "prefijo": "CTE",
+   "nombre": "Consumibles técnicos",
+   "orden": 7,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/100/foto?v=5d56722d",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 57,
+  "sku": "IIN0001",
+  "descripcion": "PROYECTOR SLIM NEGRO IP65 50W 6500K",
+  "familia": {
+   "id": 8,
+   "prefijo": "IIN",
+   "nombre": "Iluminación industrial",
+   "orden": 8,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/57/foto?v=44e0d96e",
+  "marca": "STANFORD",
+  "detalle": "* Estado: Nuevo\n*Luminaria LED tipo proyector de alta eficiencia lumínica y bajo consumo energético.\n* Diseño SLIM, perfecto para iluminación de ares libres, fachadas, parques, jardines, multicanchas, etc .\n*Sistema LED SMD de alta calidad.\n*Cascara de Aleación de ilumino fundido de gran capacidad de disipación.\n*Vidrio reforzado y transparente.\n* Driver electrónico integrado.\n* Válvula anti-empañe.\n* Montaje: sobrepuesto con soporte.\n* Temperatura ambiente de operación: -20°C -40°C Color: Negro/Gris.\n* Color de Temperatura: 6500 K.",
+  "ficha_url": null
+ },
+ {
+  "id": 73,
+  "sku": "IIN0002",
+  "descripcion": "LAMPARA EMERGENCIA MICKEY",
+  "familia": {
+   "id": 8,
+   "prefijo": "IIN",
+   "nombre": "Iluminación industrial",
+   "orden": 8,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/73/foto?v=74905e4e",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 74,
+  "sku": "IIN0003",
+  "descripcion": "SEÑALETICA SALIDA DE EMERGENCIA",
+  "familia": {
+   "id": 8,
+   "prefijo": "IIN",
+   "nombre": "Iluminación industrial",
+   "orden": 8,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/74/foto?v=fe4f7982",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 110,
+  "sku": "IIN0004",
+  "descripcion": "TORTUGA REDONDA CON REJILLA BLANCA ROSCA E/27 IP54",
+  "familia": {
+   "id": 8,
+   "prefijo": "IIN",
+   "nombre": "Iluminación industrial",
+   "orden": 8,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/110/foto?v=d827bdd0",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 129,
+  "sku": "IIN0005",
+  "descripcion": "PORTALAMPARA OVALADO PLASTICA E27 250V",
+  "familia": {
+   "id": 8,
+   "prefijo": "IIN",
+   "nombre": "Iluminación industrial",
+   "orden": 8,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/129/foto?v=cf710a3c",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 51,
+  "sku": "AMP0001",
+  "descripcion": "AMPOLLETA LED DICROICO GU10 5W CÁLIDA DAUMER",
+  "familia": {
+   "id": 11,
+   "prefijo": "AMP",
+   "nombre": "Ampolletas y tubos",
+   "orden": 11,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/51/foto?v=9109252b",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 78,
+  "sku": "AMP0002",
+  "descripcion": "AMPOLLETA LED A60 CLASICA 9W/6500K/E27",
+  "familia": {
+   "id": 11,
+   "prefijo": "AMP",
+   "nombre": "Ampolletas y tubos",
+   "orden": 11,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/78/foto?v=bcfa320d",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 79,
+  "sku": "AMP0003",
+  "descripcion": "AMPOLLETA LED A60 CLASICA 11W/6500K/E27",
+  "familia": {
+   "id": 11,
+   "prefijo": "AMP",
+   "nombre": "Ampolletas y tubos",
+   "orden": 11,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/79/foto?v=2d5b3885",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 80,
+  "sku": "AMP0004",
+  "descripcion": "AMPOLLETA LED DICROICA 6 W GU10 6500K",
+  "familia": {
+   "id": 11,
+   "prefijo": "AMP",
+   "nombre": "Ampolletas y tubos",
+   "orden": 11,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/80/foto?v=790fac32",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 81,
+  "sku": "LUM0001",
+  "descripcion": "PANEL RODONDO SOBREPUESTO 18W 6500K",
+  "familia": {
+   "id": 12,
+   "prefijo": "LUM",
+   "nombre": "Luminarias hogar",
+   "orden": 12,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/81/foto?v=6d969ade",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 82,
+  "sku": "LUM0002",
+  "descripcion": "PANEL CUADRADO SOBREPUESTO 12W 6500K",
+  "familia": {
+   "id": 12,
+   "prefijo": "LUM",
+   "nombre": "Luminarias hogar",
+   "orden": 12,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/82/foto?v=bc24f637",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 107,
+  "sku": "LUM0003",
+  "descripcion": "PORTALAMPARA BASE RECTA LOZA",
+  "familia": {
+   "id": 12,
+   "prefijo": "LUM",
+   "nombre": "Luminarias hogar",
+   "orden": 12,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/107/foto?v=ad07ce76",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 83,
+  "sku": "AEM0001",
+  "descripcion": "INTERRUPTOR SIMPLE (9/12) 10A 250V (BLANCO)",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/83/foto?v=e157d306",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 84,
+  "sku": "AEM0002",
+  "descripcion": "INTERRUPTOR DOBLE (9/15) 10A 250V (BLANCO)",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/84/foto?v=fc0ee4bf",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 85,
+  "sku": "AEM0003",
+  "descripcion": "INTERRUPTOR CONMUTADOR (9/24) 10A 250V (BLANCO)",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/85/foto?v=66290d0f",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 86,
+  "sku": "AEM0004",
+  "descripcion": "INTERRUPTOR SIMPLE (9/12) + ENCHUFE SIMPLE 10A 250V (BLANCO)",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/86/foto?v=060cd3bb",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 87,
+  "sku": "AEM0005",
+  "descripcion": "ENCHUFE DOBLE 10A 250V (BLANCO)",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/87/foto?v=9c83eb3f",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 88,
+  "sku": "AEM0006",
+  "descripcion": "ENCHUFE DOBLE BIPASO 10/16A 250V (BLANCO)",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/88/foto?v=c3d14e61",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 89,
+  "sku": "AEM0007",
+  "descripcion": "INTERRUPTOR DOBLE (9/15) 10A 250V",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/89/foto?v=48d88754",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 90,
+  "sku": "AEM0008",
+  "descripcion": "INTERRUPTOR SIMPLE (9/12) + ENCHUFE SIMPLE 10A 250V",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/90/foto?v=f3c146f6",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 91,
+  "sku": "AEM0009",
+  "descripcion": "ENCHUFE SIMPLE 10A 250V",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/91/foto?v=84d2c3bf",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 92,
+  "sku": "AEM0010",
+  "descripcion": "ENCHUFE DOBLE 10A 250V",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/92/foto?v=52df46cd",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 108,
+  "sku": "AEM0011",
+  "descripcion": "ENCHUFE ADAPTADOR UNIVERSAL BLANCO",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/108/foto?v=4f809e41",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 109,
+  "sku": "AEM0012",
+  "descripcion": "ENCHUFE ADAPTADOR TRIPLE BLANCO",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/109/foto?v=58fb2c29",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 128,
+  "sku": "AEM0013",
+  "descripcion": "ENCHUFE TRIPLE PUENTEADO 10A 250V (BLANCO",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/128/foto?v=b88e23ec",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 131,
+  "sku": "AEM0014",
+  "descripcion": "TABLERO EMBUTIDO 6 PUESTOS IP41 IK08 V-SW-3901",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/131/foto?v=ba9eed3a",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 47,
+  "sku": "ASO0001",
+  "descripcion": "CAJA ESTANCA IP65. IK07. TERMOPLÁSTICO CON CONOS Y TORNILOS 100*100*70",
+  "familia": {
+   "id": 14,
+   "prefijo": "ASO",
+   "nombre": "Artefactos sobrepuestos",
+   "orden": 14,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/47/foto?v=2f2e26d5",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 101,
+  "sku": "ASO0002",
+  "descripcion": "MEDIDOR ELECTRÓNICO MONOFÁSICO 10(60)A",
+  "familia": {
+   "id": 14,
+   "prefijo": "ASO",
+   "nombre": "Artefactos sobrepuestos",
+   "orden": 14,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/101/foto?v=a4f10eda",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 122,
+  "sku": "ASO0003",
+  "descripcion": "CAJA EMPALME P/MEDIDOR ELECTRONICO ENGANCHE RIEL DIN",
+  "familia": {
+   "id": 14,
+   "prefijo": "ASO",
+   "nombre": "Artefactos sobrepuestos",
+   "orden": 14,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/122/foto?v=f67e4ac6",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 99,
+  "sku": "EAD0001",
+  "descripcion": "ALARGADOR DE 4 TOMAS C/INTERRUPTOR 3M RIO/STANFORD",
+  "familia": {
+   "id": 15,
+   "prefijo": "EAD",
+   "nombre": "Enchufes y adaptadores",
+   "orden": 15,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/99/foto?v=4207c375",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 77,
+  "sku": "CDO0001",
+  "descripcion": "ALARGADOR ELECTRICO NARANJO 10M",
+  "familia": {
+   "id": 16,
+   "prefijo": "CDO",
+   "nombre": "Cables domiciliarios",
+   "orden": 16,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/77/foto?v=dd163a06",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 116,
+  "sku": "CDO0002",
+  "descripcion": "CABLE EVA 1.5 MM2 BLANCO",
+  "familia": {
+   "id": 16,
+   "prefijo": "CDO",
+   "nombre": "Cables domiciliarios",
+   "orden": 16,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/116/foto?v=87e98e54",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 117,
+  "sku": "CDO0003",
+  "descripcion": "CABLE EVA 1.5 MM2 ROJO",
+  "familia": {
+   "id": 16,
+   "prefijo": "CDO",
+   "nombre": "Cables domiciliarios",
+   "orden": 16,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/117/foto?v=6bdbd8bf",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 118,
+  "sku": "CDO0004",
+  "descripcion": "CABLE EVA 1.5 MM2 VERDE",
+  "familia": {
+   "id": 16,
+   "prefijo": "CDO",
+   "nombre": "Cables domiciliarios",
+   "orden": 16,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/118/foto?v=6b276299",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 120,
+  "sku": "CDO0005",
+  "descripcion": "CABLE L/HALÓGENO 2.5MM ROJO 750V 70G R 100",
+  "familia": {
+   "id": 16,
+   "prefijo": "CDO",
+   "nombre": "Cables domiciliarios",
+   "orden": 16,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/120/foto?v=4738c0ef",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 121,
+  "sku": "CDO0006",
+  "descripcion": "CABLE L/HALÓGENO 2.5MM VERDE 750V 70G R 100",
+  "familia": {
+   "id": 16,
+   "prefijo": "CDO",
+   "nombre": "Cables domiciliarios",
+   "orden": 16,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/121/foto?v=2f65b610",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ }
+]

@@ -81,3 +81,27 @@ img{max-width:100%;display:block}
 .pg-copy{text-align:center;margin-top:2.5rem;padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.1);font-size:.8rem}
 .pg-wa{position:fixed;right:1.2rem;bottom:1.2rem;width:54px;height:54px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.2);z-index:60}
 .pg-wa svg{width:26px;height:26px}
+
+/* Catálogo de productos (generado por herramientas/generar_catalogo.py) */
+.pg-hero-corto{padding:clamp(3rem,7vw,5rem) 0}
+.pg-hero-corto h1{max-width:22ch;font-size:clamp(2.2rem,5vw,3.8rem)}
+.pg-prods{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}
+.pg-prod{display:grid;grid-template-columns:96px 1fr;gap:1rem;align-items:start;border:1px solid var(--bdr);border-radius:6px;padding:1rem;background:#fff;scroll-margin-top:84px}
+.pg-prod:target{border-color:var(--o);box-shadow:0 0 0 2px rgba(232,69,20,.15)}
+.pg-prod img,.pg-sinfoto{width:96px;height:96px;object-fit:contain;background:var(--bg2);border-radius:4px}
+.pg-sinfoto{display:block}
+.pg-prod h3{font-size:.95rem;font-weight:700;line-height:1.35;margin-bottom:.3rem}
+.pg-meta{font-size:.78rem;color:var(--txt3);margin-bottom:.4rem}
+.pg-marca{font-weight:600;color:var(--txt2)}
+.pg-det{font-size:.85rem;color:var(--txt2);line-height:1.5;margin-bottom:.5rem}
+.pg-prod-btn{display:inline-block;font-family:var(--fc);font-weight:700;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;color:var(--o);border:1px solid var(--o);border-radius:4px;padding:.3rem .8rem}
+.pg-prod-btn:hover{background:var(--o);color:#fff}
+.pg-fam img{object-fit:contain;background:var(--bg2);padding:.8rem}
+.pg-fam small{display:block;font-family:var(--fb);font-weight:400;font-size:.8rem;letter-spacing:0;text-transform:none;color:var(--txt3);margin-top:.2rem}
+.pg-nota{margin-top:1.6rem;color:var(--txt2)}
+.pg-nota a,.pg-pasos a,.pg-caja a{color:var(--o)}
+.pg-pasos-col{grid-template-columns:1fr}
+.pg-fams-lista{list-style:none;display:flex;flex-wrap:wrap;gap:.6rem}
+.pg-fams-lista a{display:block;font-family:var(--fc);font-weight:600;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border:1px solid var(--bdr);border-radius:4px;padding:.55rem .9rem}
+.pg-fams-lista a:hover{border-color:var(--o);color:var(--o)}
+@media (max-width:420px){.pg-prods{grid-template-columns:1fr}.pg-prod{grid-template-columns:72px 1fr}.pg-prod img,.pg-sinfoto{width:72px;height:72px}}

@@ -3,6 +3,7 @@
 Uso (desde la raíz del repo):
     python herramientas/generar_paginas.py            # páginas + sitemap + robots
     python herramientas/generar_paginas.py --imagenes # además convierte fotos a WebP (requiere Pillow)
+    python herramientas/generar_paginas.py --catalogo # además baja el catálogo de Copper OS (ver generar_catalogo.py)
 
 Cada servicio queda en /<slug>/index.html (GitHub Pages lo sirve como
 https://copper-services.cl/<slug>/), con su título, descripción, canónica,
@@ -157,6 +158,7 @@ SERVICIOS = [
             ("¿Cómo cotizo materiales?", "Puede armar su solicitud en el catálogo en línea o enviarnos el listado por WhatsApp o correo; le respondemos con la cotización."),
             ("¿Consiguen productos que no están en el catálogo?", "Sí. Si necesita un repuesto o material específico, envíenos la referencia y lo buscamos con nuestros proveedores."),
         ],
+        "catalogo": True,
     },
     {
         "slug": "climatizacion-y-compresores",
@@ -241,6 +243,7 @@ def cabecera() -> str:
   <a href="/" class="pg-logo"><img src="/logo.png" alt="Copper Services SPA" width="120" height="48"></a>
   <nav aria-label="Principal">
     <a href="/#servicios">Servicios</a>
+    <a href="/productos/">Productos</a>
     <a href="/#nosotros">Nosotros</a>
     <a href="/#ubicacion">Ubicación</a>
     <a href="{COTIZADOR}" class="pg-cotizar">Cotizar</a>
@@ -250,6 +253,7 @@ def cabecera() -> str:
 
 def pie() -> str:
     enlaces = "\n".join(f'        <li><a href="{url(s)}">{E(s["nombre"])}</a></li>' for s in SERVICIOS)
+    enlaces += '\n        <li><a href="/productos/">Catálogo de materiales eléctricos</a></li>'
     return f"""<footer class="pg-pie">
   <div class="pg-wrap pg-pie-grid">
     <div>
@@ -366,7 +370,7 @@ def pagina(s: dict) -> str:
       <p class="pg-resumen">{E(s['resumen'])}</p>
       <div class="pg-botones">
         <a class="pg-btn" href="{wa}" target="_blank" rel="noopener">{ICONO_WA} Cotizar por WhatsApp</a>
-        <a class="pg-btn pg-btn-2" href="{COTIZADOR}">Ver catálogo y cotizar</a>
+        <a class="pg-btn pg-btn-2" href="{'/productos/' if s.get('catalogo') else COTIZADOR}">Ver catálogo{' de productos' if s.get('catalogo') else ' y cotizar'}</a>
       </div>
     </div>
   </section>
@@ -449,8 +453,21 @@ def main() -> None:
         destino = RAIZ / s["slug"] / "index.html"
         destino.parent.mkdir(exist_ok=True)
         destino.write_text(pagina(s), encoding="utf-8", newline="\n")
+    (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITIO}/sitemap.xml\n", encoding="utf-8", newline="\n")
+    import generar_catalogo
+
+    if "--catalogo" in sys.argv:
+        generar_catalogo.actualizar()
+    generar_catalogo.generar()
+    total = escribir_sitemap()
+    print(f"{len(SERVICIOS)} páginas de servicio, sitemap con {total} URLs y robots.txt listos.")
+
+
+def escribir_sitemap() -> int:
+    from generar_catalogo import rutas
+
     hoy = date.today().isoformat()
-    urls = [("/", "1.0")] + [(url(s), "0.8") for s in SERVICIOS]
+    urls = [("/", "1.0")] + [(url(s), "0.8") for s in SERVICIOS] + [(r, "0.7") for r in rutas()]
     (RAIZ / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "\n".join(f"  <url><loc>{SITIO}{u}</loc><lastmod>{hoy}</lastmod><priority>{p}</priority></url>" for u, p in urls)
@@ -458,8 +475,7 @@ def main() -> None:
         encoding="utf-8",
         newline="\n",
     )
-    (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITIO}/sitemap.xml\n", encoding="utf-8", newline="\n")
-    print(f"{len(SERVICIOS)} páginas de servicio, sitemap con {len(urls)} URLs y robots.txt listos.")
+    return len(urls)
 
 
 if __name__ == "__main__":
