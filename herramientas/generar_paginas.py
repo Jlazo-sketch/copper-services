@@ -24,7 +24,8 @@ RAIZ = Path(__file__).resolve().parent.parent
 SITIO = "https://copper-services.cl"
 TELEFONO = "+56 9 7370 6327"
 TELEFONO_WA = "56973706327"
-EMAIL = "Elazo@copper-services.com"
+EMAIL = "Jlazo@copper-services.com"
+HORARIO = "Lunes a domingo, 08:00 – 20:00 hrs"
 DIRECCION = "Alejandro Martínez N° 221, Salamanca"
 COTIZADOR = "https://app.copper-services.cl/cotizar"
 ZONA = ["Salamanca", "Illapel", "Los Vilos", "Canela", "valle del Choapa", "Región de Coquimbo"]
@@ -272,7 +273,7 @@ def pie() -> str:
         <li><a href="tel:+{TELEFONO_WA}">{TELEFONO}</a></li>
         <li><a href="mailto:{EMAIL}">{EMAIL}</a></li>
         <li>{E(DIRECCION)}</li>
-        <li>Lunes a viernes, 08:00 – 18:00 hrs</li>
+        <li>{HORARIO}</li>
         <li>RUT 77.396.139-5</li>
       </ul>
     </div>
@@ -388,7 +389,7 @@ def pagina(s: dict) -> str:
         <p class="pg-lbl">Cobertura</p>
         <h2>Dónde trabajamos</h2>
         <p>Base en {E(DIRECCION)}. Atendemos {E(', '.join(ZONA[:-2]))}, el {E(ZONA[-2])} y la {E(ZONA[-1])}.</p>
-        <p>Lunes a viernes, 08:00 – 18:00 hrs · <a href="tel:+{TELEFONO_WA}">{TELEFONO}</a></p>
+        <p>{HORARIO} · <a href="tel:+{TELEFONO_WA}">{TELEFONO}</a></p>
       </div>
     </div>
   </section>

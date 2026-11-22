@@ -27,7 +27,7 @@ from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from generar_paginas import (  # noqa: E402
-    COTIZADOR, DIRECCION, E, ICONO_WA, RAIZ, SITIO, TELEFONO, TELEFONO_WA, ZONA,
+    COTIZADOR, DIRECCION, E, HORARIO, ICONO_WA, RAIZ, SITIO, TELEFONO, TELEFONO_WA, ZONA,
     cabecera, json_ld, pie, recortar,
 )
 
@@ -216,7 +216,7 @@ COMO_COMPRAR = f"""  <section class="pg-sec pg-gris">
         <h2>Dónde entregamos</h2>
         <p>Base en {E(DIRECCION)}. Atendemos {E(', '.join(ZONA[:-2]))}, el {E(ZONA[-2])} y la {E(ZONA[-1])}.</p>
         <p>¿Necesita un material que no está en la lista? Pídalo igual: lo conseguimos.</p>
-        <p>Lunes a viernes, 08:00 – 18:00 hrs · <a href="tel:+{TELEFONO_WA}">{TELEFONO}</a></p>
+        <p>{HORARIO} · <a href="tel:+{TELEFONO_WA}">{TELEFONO}</a></p>
       </div>
     </div>
   </section>"""
