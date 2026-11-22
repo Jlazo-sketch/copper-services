@@ -94,7 +94,7 @@
  {
   "id": 5,
   "sku": "PRO0005",
-  "descripcion": "INTERRUPTOR AUTOMATICO 6KA, C, 2X16A OMNI POLAR",
+  "descripcion": "INTERRUPTOR AUTOMATICO 6KA, C, 2X16A OMNIPOLAR",
   "familia": {
    "id": 1,
    "prefijo": "PRO",
@@ -439,7 +439,7 @@
  {
   "id": 50,
   "sku": "PRO0020",
-  "descripcion": "EXTINTOR DE FUEGO A RIEL DIN CNC",
+  "descripcion": "EXTINTOR AUTOMATICO PARA TABLERO ELECTRICO, RIEL DIN, CNC YCFP7",
   "familia": {
    "id": 1,
    "prefijo": "PRO",
@@ -455,14 +455,14 @@
   "unidad_base": "un",
   "minimo_venta": "1.00",
   "foto": "/productos/50/foto?v=d58b53ef",
-  "marca": null,
+  "marca": "CNC",
   "detalle": null,
   "ficha_url": null
  },
  {
   "id": 126,
   "sku": "PRO0021",
-  "descripcion": "INTERRUPTOR TERMOMAGNETICO AC 1P C 16A 6kA CNC",
+  "descripcion": "INTERRUPTOR AUTOMATICO 6KA, C, 1X16A CNC",
   "familia": {
    "id": 1,
    "prefijo": "PRO",
@@ -478,14 +478,14 @@
   "unidad_base": "un",
   "minimo_venta": "1.00",
   "foto": "/productos/126/foto?v=4acbd7a1",
-  "marca": null,
+  "marca": "CNC",
   "detalle": null,
   "ficha_url": null
  },
  {
   "id": 127,
   "sku": "PRO0022",
-  "descripcion": "INTERRUPTOR TERMOMAGNETICO AC 1P C 25A 6kA CNC",
+  "descripcion": "INTERRUPTOR AUTOMATICO 6KA, C, 1X25A CNC",
   "familia": {
    "id": 1,
    "prefijo": "PRO",
@@ -501,7 +501,7 @@
   "unidad_base": "un",
   "minimo_venta": "1.00",
   "foto": "/productos/127/foto?v=782af73f",
-  "marca": null,
+  "marca": "CNC",
   "detalle": null,
   "ficha_url": null
  },
@@ -669,7 +669,7 @@
  {
   "id": 27,
   "sku": "TAB0008",
-  "descripcion": "BARRA AISLADORA DE CONECCION VERDE 8 POLOS, P/RIEL DIN 35MM",
+  "descripcion": "BARRA AISLADORA DE CONEXION VERDE 8 POLOS, P/RIEL DIN 35MM",
   "familia": {
    "id": 3,
    "prefijo": "TAB",
@@ -692,7 +692,7 @@
  {
   "id": 28,
   "sku": "TAB0009",
-  "descripcion": "BARRA AISLADORA DE CONECCION AZUL 8 POLOS, P/RIEL DIN 35MM",
+  "descripcion": "BARRA AISLADORA DE CONEXION AZUL 8 POLOS, P/RIEL DIN 35MM",
   "familia": {
    "id": 3,
    "prefijo": "TAB",
@@ -761,7 +761,7 @@
  {
   "id": 59,
   "sku": "TAB0012",
-  "descripcion": "Borne de conexion tornillo 6mm Degson",
+  "descripcion": "BORNE DE CONEXION TORNILLO 6MM DEGSON",
   "familia": {
    "id": 3,
    "prefijo": "TAB",
@@ -777,14 +777,14 @@
   "unidad_base": "un",
   "minimo_venta": "1.00",
   "foto": null,
-  "marca": null,
+  "marca": "DEGSON",
   "detalle": null,
   "ficha_url": null
  },
  {
   "id": 75,
   "sku": "TAB0013",
-  "descripcion": "BARRA TOMA A TIERRA 1/2*1.5 MT",
+  "descripcion": "BARRA TOMA A TIERRA 1/2\" X 1,5 M",
   "familia": {
    "id": 3,
    "prefijo": "TAB",
@@ -853,7 +853,7 @@
  {
   "id": 31,
   "sku": "EIN0002",
-  "descripcion": "Enchufe ind. hembra vol. 2P T 16A IP44 GLOBAL",
+  "descripcion": "ENCHUFE INDUSTRIAL HEMBRA VOLANTE IP44, 16A, 220V, 2P+T",
   "familia": {
    "id": 4,
    "prefijo": "EIN",
@@ -1175,7 +1175,7 @@
  {
   "id": 102,
   "sku": "EIN0016",
-  "descripcion": "ENCHUFE VOLANTE MACHO 10A 250V BLANNCO",
+  "descripcion": "ENCHUFE VOLANTE MACHO 10A 250V BLANCO",
   "familia": {
    "id": 4,
    "prefijo": "EIN",
@@ -1382,7 +1382,7 @@
  {
   "id": 119,
   "sku": "CIN0006",
-  "descripcion": "CABLE LIBRE DE HALOGENO H07Z1-K 2.5MM BLANCO R100",
+  "descripcion": "CABLE LIBRE DE HALOGENO H07Z1-K 2.5MM2 BLANCO, ROLLO 100M",
   "familia": {
    "id": 5,
    "prefijo": "CIN",
@@ -1451,7 +1451,7 @@
  {
   "id": 136,
   "sku": "CIN0009",
-  "descripcion": "CABLE PREENSAMBLADO 1x25 + 1x25",
+  "descripcion": "CABLE PREENSAMBLADO 1X25 + 1X25MM2",
   "familia": {
    "id": 5,
    "prefijo": "CIN",
@@ -1472,9 +1472,32 @@
   "ficha_url": null
  },
  {
+  "id": 137,
+  "sku": "CIN0010",
+  "descripcion": "CABLE PREENSAMBLADO 2X16MM2 AISL. 42700",
+  "familia": {
+   "id": 5,
+   "prefijo": "CIN",
+   "nombre": "Cables industriales",
+   "orden": 5,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": null,
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
   "id": 39,
   "sku": "CAN0001",
-  "descripcion": "TUBERIA RIGIDA EMT 20mm*3000m",
+  "descripcion": "TUBERIA RIGIDA EMT 20MM X 3M",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1497,7 +1520,7 @@
  {
   "id": 40,
   "sku": "CAN0002",
-  "descripcion": "TUBERIA RIGIDA EMT 25mm*3000m",
+  "descripcion": "TUBERIA RIGIDA EMT 25MM X 3M",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1520,7 +1543,7 @@
  {
   "id": 41,
   "sku": "CAN0003",
-  "descripcion": "Copla zincada EMT 20mm IEC",
+  "descripcion": "COPLA ZINCADA EMT 20MM IEC",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1543,7 +1566,7 @@
  {
   "id": 42,
   "sku": "CAN0004",
-  "descripcion": "Terminal zincado EMT 20mm IEC",
+  "descripcion": "TERMINAL ZINCADO EMT 20MM IEC",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1566,7 +1589,7 @@
  {
   "id": 43,
   "sku": "CAN0005",
-  "descripcion": "Copla zincada EMT 25mm IEC",
+  "descripcion": "COPLA ZINCADA EMT 25MM IEC",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1589,7 +1612,7 @@
  {
   "id": 44,
   "sku": "CAN0006",
-  "descripcion": "Terminal zincado EMT 25mm IEC",
+  "descripcion": "TERMINAL ZINCADO EMT 25MM IEC",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1727,7 +1750,7 @@
  {
   "id": 64,
   "sku": "CAN0012",
-  "descripcion": "COPLA 20MM PVC NARANJA",
+  "descripcion": "COPLA PVC NARANJA 20MM",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1750,7 +1773,7 @@
  {
   "id": 65,
   "sku": "CAN0013",
-  "descripcion": "COPLA 25MM PVC NARANJA",
+  "descripcion": "COPLA PVC NARANJA 25MM",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1773,7 +1796,7 @@
  {
   "id": 66,
   "sku": "CAN0014",
-  "descripcion": "CURVA 16MM PVC NARANJA",
+  "descripcion": "CURVA PVC NARANJA 16MM",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1796,7 +1819,7 @@
  {
   "id": 67,
   "sku": "CAN0015",
-  "descripcion": "CURVA 20MM PVC NARANJA",
+  "descripcion": "CURVA PVC NARANJA 20MM",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1819,7 +1842,7 @@
  {
   "id": 68,
   "sku": "CAN0016",
-  "descripcion": "CURVA PVC 25MM NARANJA",
+  "descripcion": "CURVA PVC NARANJA 25MM",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1842,7 +1865,7 @@
  {
   "id": 69,
   "sku": "CAN0017",
-  "descripcion": "CURVA PVC 32MM NARANJA",
+  "descripcion": "CURVA PVC NARANJA 32MM",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1865,7 +1888,7 @@
  {
   "id": 70,
   "sku": "CAN0018",
-  "descripcion": "TUBO CONDUIT PVC NARANJA 20MM*3000MM",
+  "descripcion": "TUBO CONDUIT PVC NARANJA 20MM X 3M",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1888,7 +1911,7 @@
  {
   "id": 71,
   "sku": "CAN0019",
-  "descripcion": "TUBO CONDUIT PVC NARANJA 25MM*3000MM",
+  "descripcion": "TUBO CONDUIT PVC NARANJA 25MM X 3M",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1911,7 +1934,7 @@
  {
   "id": 72,
   "sku": "CAN0020",
-  "descripcion": "TUBO CONDUIT PVC NARANJA 32MM*3000MM",
+  "descripcion": "TUBO CONDUIT PVC NARANJA 32MM X 3M",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -1957,7 +1980,7 @@
  {
   "id": 123,
   "sku": "CAN0022",
-  "descripcion": "CONECTOR DENTADO P/PREENSAMBLADO THEP-35(1,5-10/16-95MM2)",
+  "descripcion": "CONECTOR DENTADO P/PREENSAMBLADO THEP-35 (1,5-10/16-95MM2)",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -2026,7 +2049,7 @@
  {
   "id": 130,
   "sku": "CAN0025",
-  "descripcion": "TUBO CONDUIT PVC NARANJA 16MM*3000MM 2",
+  "descripcion": "TUBO CONDUIT PVC NARANJA 16MM X 3M",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -2072,7 +2095,7 @@
  {
   "id": 133,
   "sku": "CAN0027",
-  "descripcion": "ABRAZADERA 16MM NARANJA",
+  "descripcion": "ABRAZADERA PVC NARANJA 16MM",
   "familia": {
    "id": 6,
    "prefijo": "CAN",
@@ -2088,6 +2111,52 @@
   "unidad_base": "un",
   "minimo_venta": "1.00",
   "foto": "/productos/133/foto?v=79bdf11f",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 138,
+  "sku": "CAN0028",
+  "descripcion": "CONECTOR DENTADO P/PREENSAMBLADO LPEP LP-295 (16-95/4-50MM2)",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": null,
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 139,
+  "sku": "CAN0029",
+  "descripcion": "CONECTOR DENTADO P/PREENSAMBLADO LPEP (1,5-10/16MM2)",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": null,
   "marca": null,
   "detalle": null,
   "ficha_url": null
@@ -2141,7 +2210,7 @@
  {
   "id": 52,
   "sku": "CTE0003",
-  "descripcion": "Kit Manga Termocontraible (130 pzas) LH Negro 01 Globaltronics",
+  "descripcion": "KIT MANGA TERMOCONTRAIBLE NEGRA, 130 PIEZAS, GLOBALTRONICS",
   "familia": {
    "id": 7,
    "prefijo": "CTE",
@@ -2157,7 +2226,7 @@
   "unidad_base": "un",
   "minimo_venta": "1.00",
   "foto": "/productos/52/foto?v=cc30bdab",
-  "marca": null,
+  "marca": "GLOBALTRONICS",
   "detalle": null,
   "ficha_url": null
  },
@@ -2279,7 +2348,7 @@
  {
   "id": 100,
   "sku": "CTE0009",
-  "descripcion": "CINTA AISLANTE NEGRA 20Y UNIDAD",
+  "descripcion": "CINTA AISLANTE NEGRA 20 YARDAS",
   "familia": {
    "id": 7,
    "prefijo": "CTE",
@@ -2415,9 +2484,55 @@
   "ficha_url": null
  },
  {
+  "id": 140,
+  "sku": "IIN0006",
+  "descripcion": "AISLADOR CARRETE GRANDE",
+  "familia": {
+   "id": 8,
+   "prefijo": "IIN",
+   "nombre": "Iluminación industrial",
+   "orden": 8,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": null,
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 141,
+  "sku": "IIN0007",
+  "descripcion": "PERNO ACERO GALVANIZADO 1/2\" X 12\" PARA POSTE",
+  "familia": {
+   "id": 8,
+   "prefijo": "IIN",
+   "nombre": "Iluminación industrial",
+   "orden": 8,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": null,
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
   "id": 51,
   "sku": "AMP0001",
-  "descripcion": "AMPOLLETA LED DICROICO GU10 5W CÁLIDA DAUMER",
+  "descripcion": "AMPOLLETA LED DICROICA GU10 5W CÁLIDA DAUMER",
   "familia": {
    "id": 11,
    "prefijo": "AMP",
@@ -2433,7 +2548,7 @@
   "unidad_base": "un",
   "minimo_venta": "1.00",
   "foto": "/productos/51/foto?v=9109252b",
-  "marca": null,
+  "marca": "DAUMER",
   "detalle": null,
   "ficha_url": null
  },
@@ -2486,7 +2601,7 @@
  {
   "id": 80,
   "sku": "AMP0004",
-  "descripcion": "AMPOLLETA LED DICROICA 6 W GU10 6500K",
+  "descripcion": "AMPOLLETA LED DICROICA GU10 6W 6500K",
   "familia": {
    "id": 11,
    "prefijo": "AMP",
@@ -2509,7 +2624,7 @@
  {
   "id": 81,
   "sku": "LUM0001",
-  "descripcion": "PANEL RODONDO SOBREPUESTO 18W 6500K",
+  "descripcion": "PANEL REDONDO SOBREPUESTO 18W 6500K",
   "familia": {
    "id": 12,
    "prefijo": "LUM",
@@ -2714,52 +2829,6 @@
   "ficha_url": null
  },
  {
-  "id": 89,
-  "sku": "AEM0007",
-  "descripcion": "INTERRUPTOR DOBLE (9/15) 10A 250V",
-  "familia": {
-   "id": 13,
-   "prefijo": "AEM",
-   "nombre": "Artefactos embutidos",
-   "orden": 13,
-   "imagen": null,
-   "rubro": {
-    "id": 1,
-    "nombre": "Eléctrico",
-    "orden": 1
-   }
-  },
-  "unidad_base": "un",
-  "minimo_venta": "1.00",
-  "foto": "/productos/89/foto?v=48d88754",
-  "marca": null,
-  "detalle": null,
-  "ficha_url": null
- },
- {
-  "id": 90,
-  "sku": "AEM0008",
-  "descripcion": "INTERRUPTOR SIMPLE (9/12) + ENCHUFE SIMPLE 10A 250V",
-  "familia": {
-   "id": 13,
-   "prefijo": "AEM",
-   "nombre": "Artefactos embutidos",
-   "orden": 13,
-   "imagen": null,
-   "rubro": {
-    "id": 1,
-    "nombre": "Eléctrico",
-    "orden": 1
-   }
-  },
-  "unidad_base": "un",
-  "minimo_venta": "1.00",
-  "foto": "/productos/90/foto?v=f3c146f6",
-  "marca": null,
-  "detalle": null,
-  "ficha_url": null
- },
- {
   "id": 91,
   "sku": "AEM0009",
   "descripcion": "ENCHUFE SIMPLE 10A 250V",
@@ -2778,29 +2847,6 @@
   "unidad_base": "un",
   "minimo_venta": "1.00",
   "foto": "/productos/91/foto?v=84d2c3bf",
-  "marca": null,
-  "detalle": null,
-  "ficha_url": null
- },
- {
-  "id": 92,
-  "sku": "AEM0010",
-  "descripcion": "ENCHUFE DOBLE 10A 250V",
-  "familia": {
-   "id": 13,
-   "prefijo": "AEM",
-   "nombre": "Artefactos embutidos",
-   "orden": 13,
-   "imagen": null,
-   "rubro": {
-    "id": 1,
-    "nombre": "Eléctrico",
-    "orden": 1
-   }
-  },
-  "unidad_base": "un",
-  "minimo_venta": "1.00",
-  "foto": "/productos/92/foto?v=52df46cd",
   "marca": null,
   "detalle": null,
   "ficha_url": null
@@ -2854,7 +2900,7 @@
  {
   "id": 128,
   "sku": "AEM0013",
-  "descripcion": "ENCHUFE TRIPLE PUENTEADO 10A 250V (BLANCO",
+  "descripcion": "ENCHUFE TRIPLE PUENTEADO 10A 250V (BLANCO)",
   "familia": {
    "id": 13,
    "prefijo": "AEM",
@@ -2900,7 +2946,7 @@
  {
   "id": 47,
   "sku": "ASO0001",
-  "descripcion": "CAJA ESTANCA IP65. IK07. TERMOPLÁSTICO CON CONOS Y TORNILOS 100*100*70",
+  "descripcion": "CAJA ESTANCA IP65, IK07, TERMOPLÁSTICO CON CONOS Y TORNILLOS 100X100X70",
   "familia": {
    "id": 14,
    "prefijo": "ASO",
@@ -3084,7 +3130,7 @@
  {
   "id": 120,
   "sku": "CDO0005",
-  "descripcion": "CABLE L/HALÓGENO 2.5MM ROJO 750V 70G R 100",
+  "descripcion": "CABLE LIBRE DE HALÓGENO 2.5MM2 ROJO 750V, ROLLO 100M",
   "familia": {
    "id": 16,
    "prefijo": "CDO",
@@ -3107,7 +3153,7 @@
  {
   "id": 121,
   "sku": "CDO0006",
-  "descripcion": "CABLE L/HALÓGENO 2.5MM VERDE 750V 70G R 100",
+  "descripcion": "CABLE LIBRE DE HALÓGENO 2.5MM2 VERDE 750V, ROLLO 100M",
   "familia": {
    "id": 16,
    "prefijo": "CDO",
