@@ -186,7 +186,7 @@
  {
   "id": 9,
   "sku": "PRO0009",
-  "descripcion": "INTERRUPTOR DIFERENCIAL 2X25A 30mA",
+  "descripcion": "INTERRUPTOR DIFERENCIAL 2X25A 30MA",
   "familia": {
    "id": 1,
    "prefijo": "PRO",
@@ -209,7 +209,7 @@
  {
   "id": 10,
   "sku": "PRO0010",
-  "descripcion": "INTERRUPTOR DIFERENCIAL 2X40A 30mA",
+  "descripcion": "INTERRUPTOR DIFERENCIAL 2X40A 30MA",
   "familia": {
    "id": 1,
    "prefijo": "PRO",
@@ -502,6 +502,29 @@
   "minimo_venta": "1.00",
   "foto": "/productos/127/foto?v=782af73f",
   "marca": "CNC",
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 142,
+  "sku": "PRO0023",
+  "descripcion": "CONTACTOR 2P 25A 2NA LEGRAND",
+  "familia": {
+   "id": 1,
+   "prefijo": "PRO",
+   "nombre": "Protecciones",
+   "orden": 1,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/142/foto?v=fbd1c3a1",
+  "marca": null,
   "detalle": null,
   "ficha_url": null
  },
@@ -1495,6 +1518,29 @@
   "ficha_url": null
  },
  {
+  "id": 146,
+  "sku": "CIN0011",
+  "descripcion": "CABLE EVA 4.0 MM2 BLANCO",
+  "familia": {
+   "id": 5,
+   "prefijo": "CIN",
+   "nombre": "Cables industriales",
+   "orden": 5,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": null,
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
   "id": 39,
   "sku": "CAN0001",
   "descripcion": "TUBERIA RIGIDA EMT 20MM X 3M",
@@ -2162,6 +2208,144 @@
   "ficha_url": null
  },
  {
+  "id": 143,
+  "sku": "CAN0030",
+  "descripcion": "CONDUIT RIGIDO GALVANIZADO 3/4\"",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/143/foto?v=1c4d51b0",
+  "marca": null,
+  "detalle": "Conduit Rígido Galvanizado - 3/4\"\nCARACTERISTICAS:\n\nPara uso interior y exterior.\nFabricado según norma ANSI C80.1 y UL 6.\nAmbos extremos roscados con hilo NPT con recubrimiento de zinc para protección.\nGalvanizado y con recubrimiento protector.\nUn extremo con tapa protectora y el otro con copla (una copla por tira).\nESPECIFICACIONES TÉCNICAS:\n\nTamaño comercial: 3/4''\nDiametro exterior: 26.67 mm (1.050'')\nEspesor: 2.72 mm (0.107'') \nLargo: 3.05 m\nTOLERANCIAS APLICABLE:\n\nDiametro exterior: ± 0.38 mm (0.015'')\nLargo: ± 6.35 mm (0.25'')",
+  "ficha_url": null
+ },
+ {
+  "id": 144,
+  "sku": "CAN0031",
+  "descripcion": "CONDUIT RÍGIDO GALVANIZADO 1/2\"",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/144/foto?v=1fd2e545",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 145,
+  "sku": "CAN0032",
+  "descripcion": "CAMARA REGISTRO CONDUIT PVC 110 X 20 MM",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/145/foto?v=84889535",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 147,
+  "sku": "CAN0033",
+  "descripcion": "ABRAZADERA 1/2'' GEVEMAC",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/147/foto?v=a5643928",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 149,
+  "sku": "CAN0034",
+  "descripcion": "BUSHING GALVANIZADO RMC 3/4",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/149/foto?v=b0d3ddd2",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 150,
+  "sku": "CAN0035",
+  "descripcion": "ABRAZADERA 3/4 GEVEMAC",
+  "familia": {
+   "id": 6,
+   "prefijo": "CAN",
+   "nombre": "Canalización",
+   "orden": 6,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/150/foto?v=c2fb55bb",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
   "id": 48,
   "sku": "CTE0001",
   "descripcion": "AMARRA PLÁSTICA 100*2.5 NEGRA",
@@ -2527,6 +2711,29 @@
   "foto": null,
   "marca": null,
   "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 148,
+  "sku": "IIN0008",
+  "descripcion": "FOTOCELDA CON BASE 10A - IP44",
+  "familia": {
+   "id": 8,
+   "prefijo": "IIN",
+   "nombre": "Iluminación industrial",
+   "orden": 8,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/148/foto?v=c0190130",
+  "marca": null,
+  "detalle": "Fotocelda con base incorporada:\n\nAlimentación: 110-240V 50/60Hz\nCorriente nominal: 10A\nProtección: IP44\nLuz ambiental: <10 lux ON, > 30 LUX OFF\nDimensiones: Diámetro 80.5 mm, altura 56.5 mm.",
   "ficha_url": null
  },
  {
@@ -2944,6 +3151,29 @@
   "ficha_url": null
  },
  {
+  "id": 151,
+  "sku": "AEM0015",
+  "descripcion": "TARUGO PLASTICO 6MM CON TOPE (100 UNIDADES)",
+  "familia": {
+   "id": 13,
+   "prefijo": "AEM",
+   "nombre": "Artefactos embutidos",
+   "orden": 13,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": null,
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
   "id": 47,
   "sku": "ASO0001",
   "descripcion": "CAJA ESTANCA IP65, IK07, TERMOPLÁSTICO CON CONOS Y TORNILLOS 100X100X70",
@@ -3169,6 +3399,29 @@
   "unidad_base": "un",
   "minimo_venta": "1.00",
   "foto": "/productos/121/foto?v=2f65b610",
+  "marca": null,
+  "detalle": null,
+  "ficha_url": null
+ },
+ {
+  "id": 152,
+  "sku": "TOR0001",
+  "descripcion": "TORNILLO HEXAGONAL PUNTA BROCA 12X2 100 UN",
+  "familia": {
+   "id": 24,
+   "prefijo": "TOR",
+   "nombre": "Tornilleria",
+   "orden": 24,
+   "imagen": null,
+   "rubro": {
+    "id": 1,
+    "nombre": "Eléctrico",
+    "orden": 1
+   }
+  },
+  "unidad_base": "un",
+  "minimo_venta": "1.00",
+  "foto": "/productos/152/foto?v=a4d643d7",
   "marca": null,
   "detalle": null,
   "ficha_url": null
